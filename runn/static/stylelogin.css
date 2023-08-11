@@ -1,0 +1,114 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-image: url("pexels-kelly-2453551.jpg");
+    background-size: cover;
+
+}
+
+.cspecs {
+    position: relative;
+    top: 150px;
+    padding: 30px 50px;
+    width: 80%;
+}
+
+.form-control {
+    margin: 15px;
+
+
+
+}
+
+.btn {
+    background-color: transparent;
+}
+
+.signup {
+    text-decoration: none;
+    font-size: large;
+}
+
+input::placeholder {
+    color: #7fbbc4 !important;
+
+}
+
+input {
+    color: #3FC8F4 !important;
+}
+
+.btnspecs {
+    color: #3FC8F4;
+    background-color: transparent;
+    background-image: none;
+    border-color: #3FC8F4;
+    font-size: larger;
+}
+
+.h1font {
+    color: #3FC8F4;
+
+}
+
+.container1 {
+    box-shadow: 0 4px 30px 13px rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+input:focus {
+
+    border-color: #52799F !important;
+    box-shadow: none !important;
+}
+
+.btnspecs:hover {
+    background-color: #3FC8F4 !important;
+    cursor: pointer;
+    color: white;
+}
+
+.signup:hover {
+    text-decoration: underline;
+
+}
+
+.logo {
+    width: 70px;
+}
+
+.name {
+    margin: 20px 0px 20px 10px;
+    color: #3FC8F4;
+
+    font-size: 25px;
+    font-family: 'Kanit', sans-serif !important;
+}
+
+.name2 {
+    margin: 20px 0px 20px 0px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Kanit', sans-serif !important;
+}
+
+.fpw {
+    cursor: pointer;
+}
+
+.togglePw {
+    color: white;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 576px) {
+    .name {
+        margin: 20px 0px 20px -5px;
+        padding-left: 10px;
+
+    }
+
+    .name2 {
+        margin: 20px 305px 20px 0px;
+    }
+
+}

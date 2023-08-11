@@ -1,0 +1,138 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    background-image: url("pexels-kelly-2453551.jpg");
+    background-size: cover;
+
+}
+.nav-link{
+    color: rgb(250, 250, 250);
+    font-size: 20px;
+    font-weight: 500;
+ 
+}
+.nav-link{
+    color: rgb(250, 250, 250);
+    font-size: 20px;
+    font-weight: 500;
+ 
+}
+.logo{
+    width: 70px;
+}
+.navdiff{
+    color: #3FC8F4;
+}
+.nav-link:hover{
+    color: #3FC8F4;
+}
+
+.profile{
+top: 300px;
+width: 350px;
+height: 350px;
+background-color: rgba(250, 250, 250,0.5);
+border-radius: 5px;
+    
+}
+.profile img{
+    border-radius: 20px;
+    border: solid 1px white;
+}
+label, button,.reshis{
+    background-color: white;
+    color: #45A405;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button{
+    border-style: none;
+}
+.container1{
+    box-shadow: 0 4px 30px 13px rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 95% !important;
+    height: 100vh ;
+
+ 
+}
+.buttondiv{
+    top:80%
+}
+/* #welcomeMessage{
+    margin-top: 100px;
+} */
+#LogoutBtn:hover{
+color: white;
+}
+.reshis{
+    text-decoration: none;
+}
+.name {
+    margin: 20px 0px 20px 10px;
+    color: #3FC8F4;
+
+    font-size: 25px;
+    font-family: 'Kanit', sans-serif !important;
+}
+
+.name2 {
+    margin: 20px 0px 20px 0px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Kanit', sans-serif !important;
+}
+.Homebtn:hover{
+    color: white;
+    background-color: rgba(63, 200, 244,0.8)!important;
+
+}
+.usernamemq{
+    display: block;
+}
+
+
+@media screen and (max-width: 576px) {
+    .name {
+        margin: 20px 0px 20px -20px;
+        padding-left: 30px;
+
+    }
+
+    .name2 {
+        margin: 20px 250px 20px 0px;
+     
+    }
+
+    label{
+     
+     padding:0px 10px 0px 10px;
+     text-align: center;
+    }
+    .profile{
+        top: 400px;
+    }
+    .buttondiv{
+      padding-top: 100px;
+    }
+
+
+}
+@media screen and (min-width:576px) and (max-width:768px){
+    .fontusername{
+        font-size: 16px;
+    }
+    .usernamemq{
+        display: none;
+    }
+  
+ 
+}
+@media screen and (min-width:1024px) and (max-width:1280px){
+    .buttondiv{
+        padding-top: 110px;
+      }
+      .output{
+        width: 80px;
+        height: 80px;
+      }
+}

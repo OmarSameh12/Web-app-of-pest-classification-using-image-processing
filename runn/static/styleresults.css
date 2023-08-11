@@ -1,0 +1,140 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-image: url("pexels-kelly-2453551.jpg");
+    background-size: cover;
+
+}
+
+.nav-link {
+    color: rgb(250, 250, 250);
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.nav-link {
+    color: rgb(250, 250, 250);
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.logo {
+    width: 70px;
+}
+
+.navdiff {
+    color: #3FC8F4;
+}
+
+.nav-link:hover {
+    color: #3FC8F4;
+}
+
+
+#LogoutBtn:hover {
+    color: white;
+}
+
+.container1 {
+    box-shadow: 0 4px 30px 13px rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 95% !important;
+    height: 100vh !important;
+
+
+}
+
+.results {
+    color: #000000;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100vh;
+
+
+    top: 800px
+}
+
+.imgdiv {
+    right: 100;
+}
+
+.imgg {
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+.name{
+    margin: 20px 0px 20px 10px;
+    color:#3FC8F4;
+   
+    font-size: 25px;
+    font-family: 'Kanit', sans-serif!important;
+}
+.name2{
+    margin: 20px 0px 20px 0px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Kanit', sans-serif!important;
+}
+
+.profile {
+    top: 250px;
+    width: 250px;
+    height: 250px;
+    background-color: rgba(250, 250, 250, 0.5);
+    border-radius: 50%;
+
+}
+
+.results h1 {
+    color: #3FC8F4
+}
+
+.results h3,li {
+    color:whitesmoke;
+    line-height: 35px;
+}
+
+
+
+input {
+    background-color: white;
+    color: #45A405;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-style: none;
+}
+.navbar-scrolled{
+    background-color: rgb(190, 227, 232);
+ 
+    box-shadow: 0 3px  10px rgba(0,0,0,0.15);
+}
+.navbar{
+    transition: all 0.5s;
+    padding: 5px 0px 0px 0px!important;
+}
+#resultimg{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+
+}
+@media screen and (max-width: 576px) {
+    .name{
+        margin: 20px 0px 20px -35px;
+       padding-left: 35px;
+      
+     }
+     .name2{
+        margin: 20px 250px 20px 0px;
+     }
+     .profile{
+        top: 300px;
+     }
+     .results{
+        top: 800px;
+     }
+
+}

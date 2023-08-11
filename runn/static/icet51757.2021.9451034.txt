@@ -1,0 +1,18 @@
+1) Dataset: system constructed 27 agricultural common pest
+detection data sets
+2)Algorithm: algorithm uses
+resnet50 as the backbone network, uses Feature Pyramid
+Network (FPN) to extract features, and optimizes them by
+Stochastic Gradient Descent (SGD) and Non-Maximum
+Suppression (NMS). Finally, the method is implemented by
+HALCON machine vision software mainly using CNN algorithm to achieve deep learning 
+3)Pre-processing steps:preprocessing part is mainly divided into six aspects: 
+setting parameters, 
+setting input and output paths,
+reading and splitting data sets, 
+determining model parameters according to data,
+creating target detection model and data set preprocessing.
+4)Accuracy:average precision of 92.5%
+5)Output: system can detect and count the
+uploaded pest images, and save the detection results to MySQL
+database
